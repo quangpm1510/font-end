@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar-logo img {
+    width: 100px;
+    margin-left: -150px;
+}
+.navbar-item ul{
+    display: flex;
+    list-style: none;
+}
+.navbar-item {
+    margin-right: -70px;
+}
+.navbar-item li {
+    margin: auto 10px;
+}
+.banner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.container-top {
+    margin-top: 5px;
+    display: flex;
+}
+.container-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.container-bottom{
+    display: flex;
+    
+}
+.box1{
+    width: 50%;
+    height: 50vh;
+    background-image: url(images/nha-may.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.box2{
+    width: 50%;
+    height: 50vh;
+    background-image: url(images/showroom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box3{
+    width: 50%;
+    height: 50vh;
+    background-image: url(images/gioi-thieu.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.box1 p {
+    color: white;
+    text-align: center; 
+    margin-top: 220px;
+    font-weight: bold;
+}
+.box2 p {
+    color: white;
+    text-align: center;
+    margin-top: 220px; 
+    font-weight: bold;
+}
+.box3 p {
+    color: white;
+    text-align: center; 
+    margin-top: 220px;
+    font-weight: bold;
+}
+.bottom {
+    background-color: rgb(233, 192, 9);
+    margin-top: 50px;
+    display: flex;
+    height: 130px;
+    padding-left: 30px;
+    
+
+}
+.bottom-box1{
+    margin-top: 30px;
+    width: 30%;
+    padding-left: 70px;
+}
+
+.bottom-box2{
+    margin-top: 30px;
+    width: 30%;
+}
+.bottom-box3{
+    margin-top: 30px;
+    width: 30%;
